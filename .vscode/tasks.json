@@ -1,0 +1,28 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Unistall recipes-scheduling",
+            "type": "shell",
+            "command": "pip  uninstall --yes recipes-scheduling"
+        },
+        {
+            "label": "Compile recipes-scheduling",
+            "type": "shell",
+            "command": "cd recipes_scheduling; python setup.py  bdist_wheel"
+        },
+        {
+            "label": "Install recipes-scheduling",
+            "type": "shell",
+            "command": "pip install recipes_scheduling/dist/recipes_scheduling-0.1.0-py2.py3-none-any.whl"
+        },
+        {
+            "label": "Build recipes_scheduling",
+            "dependsOn": ["Unistall recipes-scheduling", 
+                "Compile recipes-scheduling",
+                "Install recipes-scheduling"]
+        }
+    ]
+}

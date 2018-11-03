@@ -1,0 +1,36 @@
+tests:
+    16-54:
+      event: timeout
+      amount: 10001
+      message: all
+      operator: all
+
+    18-08:
+      event: timeout1
+      amount: 10002
+      message: 200
+      operator: 15028
+
+    18-1*:
+      event: timeout2
+      timeout: 10002
+      message: 200
+      operator: 15028
+
+    18-0*:
+      event: timeout2
+      timeout: 10003
+      message: 200
+      operator: 15028
+
+    17-10:
+      event: timeout
+      amount: 10001
+      message: all
+      operator: all
+
+    11-10:
+      event: timeout
+      amount: '10001'
+      message: all
+      operator: all

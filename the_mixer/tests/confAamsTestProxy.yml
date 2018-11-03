@@ -1,0 +1,54 @@
+# event : timeoutIn, timeouOut, returnStubbed 
+messages:
+  prepare
+  confirm
+  forget
+
+tests:
+    16-54:
+      event: timeout_in
+      amount: 10001
+      messageType: all
+      operator: all
+
+    18-08:
+      event: timeout_in
+      amount: 10002
+      messageType: 200
+      operator: 15028
+
+    18-1*:
+      event: timeout_in
+      timeout: 10002
+      messageType: 200
+      operator: 15028
+
+    18-0*:
+      event: timeout_in
+      timeout: 10003
+      messageType: 200
+      operator: 15028
+
+    17-10:
+      event: timeout_in
+      amount: 10001
+      messageType: all
+      operator: all
+
+    11-10:
+      event: timeout_in
+      amount: '10001'
+      messageType: all
+      operator: all
+
+    11-11:
+      event: timeout_in
+      amount: '10001'
+      messageType: all
+      operator: all
+    
+    11-12:
+      event: timeout_in
+      amount: '10001'
+      messageType: prepare
+      operator: all
