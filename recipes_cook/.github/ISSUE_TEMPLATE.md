@@ -1,4 +1,4 @@
-* recipes_coocker version:
+* recipes_cook version:
 * Python version:
 * Operating System:
 

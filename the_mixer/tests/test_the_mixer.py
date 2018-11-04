@@ -8,7 +8,7 @@ import unittest
 import os
 from the_mixer import the_mixer
 from recipes_scheduling import ScheduledRecipes
-from recipes_coocker.recipes_coocker import TwoPhaseCommitCooker
+from recipes_cook.recipes_cook import TwoPhaseCommitCooker
 
 
 class TestThe_mixer(unittest.TestCase):

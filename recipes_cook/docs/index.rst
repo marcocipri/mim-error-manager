@@ -1,4 +1,4 @@
-Welcome to recipes_coocker's documentation!
+Welcome to recipes_cook's documentation!
 ======================================
 
 .. toctree::

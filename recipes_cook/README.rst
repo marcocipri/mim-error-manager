@@ -1,13 +1,13 @@
 ===============
-recipes_coocker
+recipes_cook
 ===============
 
 
-.. image:: https://img.shields.io/pypi/v/recipes_coocker.svg
-        :target: https://pypi.python.org/pypi/recipes_coocker
+.. image:: https://img.shields.io/pypi/v/recipes_cook.svg
+        :target: https://pypi.python.org/pypi/recipes_cook
 
-.. image:: https://img.shields.io/travis/marcocipri/recipes_coocker.svg
-        :target: https://travis-ci.org/marcocipri/recipes_coocker
+.. image:: https://img.shields.io/travis/marcocipri/recipes_cook.svg
+        :target: https://travis-ci.org/marcocipri/recipes_cook
 
 .. image:: https://readthedocs.org/projects/recipes-coocker/badge/?version=latest
         :target: https://recipes-coocker.readthedocs.io/en/latest/?badge=latest

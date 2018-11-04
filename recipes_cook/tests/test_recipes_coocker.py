@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `recipes_coocker` package."""
+"""Tests for `recipes_cook` package."""
 
 
 import unittest
 
-from recipes_coocker import recipes_coocker
+from recipes_cook import recipes_cook
 
 
-class TestRecipes_coocker(unittest.TestCase):
-    """Tests for `recipes_coocker` package."""
+class Testrecipes_cook(unittest.TestCase):
+    """Tests for `recipes_cook` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""

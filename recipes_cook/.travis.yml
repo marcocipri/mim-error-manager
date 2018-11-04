@@ -25,5 +25,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: marcocipri/recipes_coocker
+    repo: marcocipri/recipes_cook
     python: 3.6

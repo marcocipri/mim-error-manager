@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install recipes_coocker, run this command in your terminal:
+To install recipes_cook, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install recipes_coocker
+    $ pip install recipes_cook
 
-This is the preferred method to install recipes_coocker, as it will always install the most recent stable release.
+This is the preferred method to install recipes_cook, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for recipes_coocker can be downloaded from the `Github repo`_.
+The sources for recipes_cook can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/marcocipri/recipes_coocker
+    $ git clone git://github.com/marcocipri/recipes_cook
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/marcocipri/recipes_coocker/tarball/master
+    $ curl  -OL https://github.com/marcocipri/recipes_cook/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/marcocipri/recipes_coocker
-.. _tarball: https://github.com/marcocipri/recipes_coocker/tarball/master
+.. _Github repo: https://github.com/marcocipri/recipes_cook
+.. _tarball: https://github.com/marcocipri/recipes_cook/tarball/master
