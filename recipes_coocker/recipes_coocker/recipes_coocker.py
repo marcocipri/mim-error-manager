@@ -45,5 +45,7 @@ class TwoPhaseCommitCooker(Cooker):
         return self
 
     def coocks(self, message_type):
-        if message_type == self.recipe['messageType'] or 'all'== self.recipe['messageType']:
-            return getattr(self, self.recipe['event'])(message_type)
+        _message_type = message_type
+        message_type = 'changed'
+        if _message_type == self.recipe['messageType'] or 'all'== self.recipe['messageType']:
+            return getattr(self, self.recipe['event'])(_message_type)

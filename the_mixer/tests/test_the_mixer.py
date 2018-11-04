@@ -5,7 +5,6 @@
 
 
 import unittest
-import pytest
 import os
 from the_mixer import the_mixer
 from recipes_scheduling import ScheduledRecipes
@@ -105,6 +104,9 @@ class TestThe_mixer(unittest.TestCase):
         print(recipe['event'])
         self.assertEqual(theCoocker.with_the(
             recipe).coocks('prepare'), '10001')
+
+
+
 
 # SpecificProtocol inherit GenericCoockingProtocol
 # coocker.playsWith(SpecificProtocol)
