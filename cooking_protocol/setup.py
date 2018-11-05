@@ -17,7 +17,7 @@ setup_requirements = [ ]
 
 test_requirements = [ ]
 
-setup(
+setup( 
     author="Marco Cipri",
     author_email='marcocipri@gmail.com',
     classifiers=[
